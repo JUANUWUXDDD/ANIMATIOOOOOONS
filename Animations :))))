@@ -1,0 +1,49 @@
+===============Made By INFINITYH4CK =====================
+                                 EASY SCRIPT VERY EASY
+
+local Player = game.Workspace.INFINITYH4CK
+local Folder = Instance.new("Folder")
+Folder.Name = "Animations"
+Folder.Parent = game
+
+-- Animación de correr
+local RunAnim = Instance.new("Animation")
+RunAnim.Name = "RunAnim"
+RunAnim.AnimationId = "rbxassetid://10147821284"
+RunAnim.Parent = Folder
+
+-- Animación de estar inactivo
+local IdleAnim = Instance.new("Animation")
+IdleAnim.Name = "IdleAnim"
+IdleAnim.AnimationId = "rbxassetid://17746180844"
+IdleAnim.Parent = Folder
+
+-- Animación de salto
+local JumpAnim = Instance.new("Animation")
+JumpAnim.Name = "JumpAnim"
+JumpAnim.AnimationId = "rbxassetid://13694096724"
+JumpAnim.Parent = Folder
+
+-- Animación de nadar
+local SwimAnim = Instance.new("Animation")
+SwimAnim.Name = "SwimAnim"
+SwimAnim.AnimationId = "rbxassetid://15517864808"
+SwimAnim.Parent = Folder
+
+wait(1)
+
+game.Animations.RunAnim.Parent = Player.Animate.run
+
+game.Animations.IdleAnim.Parent = Player.Animate.idle
+
+game.Animations.JumpAnim.Parent = Player.Animate.jump
+
+game.Animations.SwimAnim.Parent = Player.Animate.swim
+
+
+wait(1)
+print("Este script solo sera usado por")
+print("Richigod2")
+print("INFINITYH4CK ===CREADOR DEL SCRIPT")
+
+print("DISFRUTA EL SCRIPT === B)")
